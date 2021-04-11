@@ -9,9 +9,9 @@
 
 * [Docker](doc/services/docker.md)
 * ~~[Kubernetes](doc/services/kubernetes.md)~~
-* ~~[redis](doc/services/redis.md)~~
+* [redis](doc/services/redis.md)
 
 ## Architecture
 
-* [Domain Driven Design](doc/ddd.md)
-* ~~[Clean Architecture](doc/clean-architecture.md)~~
+* [Domain Driven Design](doc/architecture/ddd.md)
+* ~~[Clean Architecture](doc/architecture/clean-architecture.md)~~
