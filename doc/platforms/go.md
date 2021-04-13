@@ -1,4 +1,4 @@
-# Golang
+# Go
 
 ## Installation
 
@@ -25,5 +25,39 @@ Go Modules are now supported by the platforms as the official package manager
 * **go mod vendor**: copies all third-party dependencies to a vendor folder in your project root.
 
 > The files **go.mod** y **go.sum** must be commited to source control
+
+## Let's make our first application!
+
+We're going to create a simple api
+
+1. First, we create an empty folder with our project name "my-go-api"
+
+```bash
+$ mdkir -p ~/src/github.com/francovitali/my-go-api
+cd ~/src/github.com/francovitali/my-go-api
+```
+
+2. Initialize the project folder as a git repo
+
+```bash
+$ git init
+```
+
+3. Initialize the project as a Go Module
+
+```bash
+$ go mod init github.com/francovitali/my-go-api
+```
+
+4. Import module dependencies
+
+```bash
+$ go get -u github.com/gin-gonic/gin
+$ go get -u github.com/go-redis/redis
+$ go get -u github.com/go-sql-driver/mysql
+```
+
+5. Add project files
+
 
 

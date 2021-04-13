@@ -16,7 +16,7 @@ We can use a [supported client library](https://redis.io/clients) or the [redis-
 
 ### Libraries
 
-* [Golang](https://github.com/go-redis/redis)
+* [Go](https://github.com/go-redis/redis)
 * [Java](https://github.com/redis/jedis)
 
 ### redis-cli

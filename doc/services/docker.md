@@ -20,7 +20,7 @@ Docker is a tool designed to make it easier to create, deploy, and run applicati
 Images are built using ephemeral layers. We can review the image [history](https://docs.docker.com/engine/reference/commandline/image_history/), to view the commands used to build and image
 
 ```bash
-docker image history <IMAGE>
+$ docker image history <IMAGE>
 ```
 
 ## Let's make our first image!

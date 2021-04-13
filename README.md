@@ -2,7 +2,7 @@
 
 ## Platforms
 
-* [Golang](doc/platforms/golang.md)
+* [Go](doc/platforms/go.md)
 * ~~[Java](doc/platforms/java.md)~~
 
 ## Services
